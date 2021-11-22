@@ -7,7 +7,7 @@ date:   2021-08-09 10:32:00 -0600
 description: There is plenty of dark humor in his channel.
 img: posts/20210809/Techlead_0.jpg
 tags: [Youtuber,Techlead]
-author: Griffin Lewis
+author: 1peiz
 mathjax: no
 ---
 ## No one:Techlead:
