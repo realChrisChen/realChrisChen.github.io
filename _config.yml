@@ -1,5 +1,5 @@
 # Site settings
-title: 1Peiz
+title: realChrisChen
 description: '' # this means to ignore newlines until "baseurl:"
 permalink: ':title:output_ext'
 baseurl: "/" # the subpath of your site, e.g. /blog
@@ -24,7 +24,7 @@ logo-dark: "/assets/img/branding/Night.svg"
 highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code highlighter if needed
 
 # Author settings
-author: 1peiz # add your name
+author: realChrisChen # add your name
 author-pic: Myself_angry.png
 about-author: A CS sophomore student,I like programming,working out among other things.
 
@@ -37,7 +37,7 @@ twitter: '@chenleyi31' # Add your Twitter handle
 mailchimp: ""
 
 # Disqus
-discus_identifier: 1peiz # Add your discus identifier
+discus_identifier: realChrisChen # Add your discus identifier
 comments_curtain: yes # leave empty to show the disqus embed directly
 
 # Tracker
