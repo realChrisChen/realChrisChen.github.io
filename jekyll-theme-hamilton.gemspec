@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Chris Chen"]
   spec.email         = ["chenleyi2001@gmail.com"]
 
-  spec.summary       =  
+  spec.summary       = "To Start As Human And To End As Divine"
   spec.homepage      = "https://www.realchrischen.com"
   spec.license       = "MIT"
 
