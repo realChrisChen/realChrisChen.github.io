@@ -1,15 +1,18 @@
 ---
+
 layout: post
 read_time: true
 show_date: true
 title:  The youtuber Techlead is fun to watch
 date:   2021-08-09 10:32:00 -0600
 description: There is plenty of dark humor in his channel.
-img: posts/20210809/Techlead.jpg
 tags: [Youtuber,Techlead]
+img: posts/Techlead.jpg
 author: Chris Chen
 mathjax: no
+
 ---
+
 ## No one:Techlead:
 
 Not gonna lie,[Techlead](https://www.youtube.com/c/TechLead/videos?view=0&sort=p&flow=grid) is like the jammie Foxx of the tech industry,he is also very honest and open.  
