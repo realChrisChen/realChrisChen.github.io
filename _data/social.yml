@@ -1,6 +1,12 @@
 - title: Twitter
-  url: https://twitter.com/ngzhio
+  url: https://twitter.com/chenleyi31
   icon: fab fa-twitter
+- title: Instagram
+  url: https://instagram.com/realchrischen
+  icon: fab fa-instagram
+- title: Youtube
+  url: https://www.youtube.com/channel/UC8JYBJ0J8k-Ob9wdn6y45UQ
+  icon: fab fa-youtube
 - title: GitHub
-  url: https://github.com/ngzhio/jekyll-theme-hamilton
+  url: https://github.com/realChrisChen/
   icon: fab fa-github
