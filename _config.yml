@@ -45,7 +45,7 @@ analytics:
 fbadmin:
 
 # Paginate
-paginate: 6
+paginate: 12
 paginate_path: 'page:num'
 words_per_minute: 200
 
