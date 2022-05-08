@@ -3,17 +3,17 @@ layout: post
 toc: true
 title: "Solidity教程02 - Dev Tools"
 categories: Code
-tags: [Solidity,区块链,eth]
+tags: [Solidity教程]
 author:
   - Chris Chen
 ---
 
 ### 必备的网站
-* Solidity 视屏教学 [https://m.youtube.com/playlist?list=PLHmOMPRfmOxQ3HSlId8KAKxnt8yuyTZVk]
-* Rinkeby Faucet[https://rinkebyfaucet.com/]
-* Rinkeby 区块链浏览器[https://rinkeby.etherscan.io/]
-* Remix 在线编写部署合约[https://remix.ethereum.org/#optimize=false&runs=200&evmVersion=null&version=soljson-v0.7.1+commit.f4a555be.js]
-* Metamask 浏览器钱包 [https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn]
+* <a href = 'https://m.youtube.com/playlist?list=PLHmOMPRfmOxQ3HSlId8KAKxnt8yuyTZVk'>Solidity 视屏教学 </a>
+* <a href = 'https://rinkebyfaucet.com/'>Rinkeby Faucet</a>
+* <a href = 'https://rinkeby.etherscan.io/'>Rinkeby 区块链浏览器</a>
+* <a href = 'https://remix.ethereum.org/#optimize=false&runs=200&evmVersion=null&version=soljson-v0.7.1+commit.f4a555be.js'>Remix 在线编写部署合约</a>
+* <a href = 'https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn'>Metamask 浏览器钱包</a>
 
 
 ### 步骤
