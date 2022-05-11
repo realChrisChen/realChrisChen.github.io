@@ -83,3 +83,20 @@
 1. 在浏览器上执行合约 Environment 选择 Javascript VM(London)就行，而要将合约部署到测试网则需要选择Injected web 3.
 2. 版本选择 0.7.1 勾上 Auto compile 以实现自动编译
 3. 在Etherscan上的Contract中，可以选择 verify and publish, 这样可以验证你的代码并将其开源
+
+## 3. Solidity代码的结构
+
+### 1. 代码许可证
+* 开放，开源
+    * //SPDX-License-Identifier: <License>
+        * Apache: 他人修改后可以闭源，修改过的文件都必须放置版权说明
+        * MIT：他人修改后可以闭源，修改过的文件不必放版权说明，衍生软件广告可以用你的名字促销
+        * BSD：他人修改后可以闭源，修改过的文件不必放版权说明，衍生软件广告不能用你的名字促销
+* 不开放，自己使用，闭源
+    * //SPDX-License-Identifier: UNLICENSED
+
+### 2. Pragmas
+* 更编译器相关的设定
+* 目前只会用到与版本相关的
+
+
