@@ -12,6 +12,8 @@ author:
 
 *Read part I of this story [here](https://www.wired.com/2015/04/silk-road-1/).*
 
+## Thor
+
 ![chapter_1](https://interactive.wired.com/www-wired-com__2015__05__silk-road-2/chapter_11.svg)
 
 *“I imagine that someday I may have a story written about my life and it would be good to have a detailed account of it.” —home/frosty/documents/ journal/2012/q1/january/week1*
@@ -46,6 +48,8 @@ On the wall of the CY2 computer lab, Tarbell mounted an 8-foot sheet of plotter 
 
 Tarbell was a visual thinker; he liked to see the connections. One of those connections was to an IP address that was the last known login to the Silk Road VPN. Next to it Tarbell drew a question mark. A subpoena revealed the IP’s physical location: Café Luna, Sacramento Street, San Francisco.
 
+## Joshua Terrey
+
 ![chapter_1](https://interactive.wired.com/www-wired-com__2015__05__silk-road-2/chapter_21.svg)
 
 WHEN HOMELAND SECURITY agents showed up at Ross Ulbricht’s front door in San Francisco, his new roommates were surprised. They thought the quiet guy from Texas who’d just rented their extra room for a thousand bucks was named Joshua Terrey. The agents must have found that interesting, since Joshua Terrey wasn’t one of the nine names they’d found in a stash of fake IDs at the Canadian border customs office, all directed to this address and featuring Ross Ulbricht’s picture.
@@ -62,25 +66,13 @@ Before the agents left, Ross did volunteer that “hypothetically” anyone coul
 
 Ross was spooked by the visit. He moved again a short time later to another sublet, in the city’s Glen Park neighborhood, but decided to use his real name. One of his new roommates, Alex, liked Ross right away because he was charismatic and easy to talk to.
 
-#### RELATED STORIES
-
-- #### [Want to See Domestic Spying’s Future? Follow the Drug War](https://www.wired.com/2015/04/want-see-domestic-spyings-future-follow-drug-war/)
-
-  BY ANDY GREENBERG
-
-- #### [New Dark-Web Market Is Selling Zero-Day Exploits to Hackers](https://www.wired.com/2015/04/therealdeal-zero-day-exploits/)
-
-  BY ANDY GREENBERG
-
-- #### [The Darkest Place on the Internet Isn’t Just for Criminals](https://www.wired.com/2013/10/thompson/)
-
-  BY CLIVE THOMPSON
-
 And, Alex observed, Ross’ focus was impressive. He wasn’t the type of guy to procrastinate watching cat videos on his Samsung 700z. He didn’t smoke or drink much, although he sometimes played his djembe, a west African drum and one of his few possessions. He never brought friends over and seemed not to have a single memento. Nor did Ross get mail. “Sometimes,” one roommate said to Alex, “I feel like Ross is hiding from someone.”
 
 Still, they couldn’t have guessed that Ross, the new guy in their cheap share who liked giving hugs and hanging out shirtless, was sitting on their garage-sale furniture with that Samsung on his lap presiding over a criminal empire.
 
 <video class="render-layer hide-mob hide-ipad hide-sm hide-med" data-js="parallaxTarget" data-play-on-scroll="" style="box-sizing: border-box; display: block; vertical-align: baseline; backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; transform: translateZ(0px); max-width: 100%; transition: opacity 0.35s cubic-bezier(0.33, 0.66, 0.66, 1) 0s; width: 1730px;"></video>
+
+## Uneasy Lies the Head
 
 ![chapter_1](https://interactive.wired.com/www-wired-com__2015__05__silk-road-2/chapter_31.svg)
 
@@ -125,6 +117,8 @@ DPR confided his worries about “LE,” or law enforcement, not realizing that 
 *Tried moving forum to multi .onion config, but leaked ip twice.*
 
 DPR had also gotten lazy with his operational security. That diary he kept was a bad idea, for starters. Growing vanity had become a weakness. DPR’s self-taught programming was catching up with him as well, leaving holes in Tor’s invisibility cloak. And yet he would tell his admins there was nothing that could get traced back to them. When one user with a technical background private-messaged DPR to warn him that he should know the precise physical location of his servers, DPR brushed it aside. The tipster warned that the servers could be copied easily. Don’t worry, DPR said. The servers are secure.
+
+## Labla
 
 ![chapter_1](https://interactive.wired.com/www-wired-com__2015__05__silk-road-2/chapter_41.svg)
 
@@ -200,6 +194,8 @@ Except that it was high summer. This being a federal building, the air-condition
 
 The only room with constant air-conditioning was the lab, which had to be cooled because of the electronics. So one day, Tarbell and Yum made a desperate attempt to transport some of the chill to their desks using fans. It kind of worked. And there they sat in the middle of the FBI office, Tarbell sweating in his skivvies, with a football game on in the background and a series of fans stretching back to the well-cooled room where the ersatz Silk Road server hummed along, still keeping one key secret.
 
+## Glen Park
+
 ![chapter_1](https://interactive.wired.com/www-wired-com__2015__05__silk-road-2/chapter_51.svg)
 
 ROSS AND ALEX had become friends at the new house. Some nights they’d watch *King of the Hill* together, which reminded Ross of home, as it was a satire of a suburban Texas family like his own. Eventually Alex met that family when they all visited for a weekend. Ross’ parents seemed like nice folks who had raised a nice son. Settling into his room, Ross bought a few things to make life more comfortable: a lamp, a white leather couch from a garage sale, a standing desk for his Samsung. Online, however, things were less settled.
@@ -214,20 +210,6 @@ NOB: Second you don’t want to take a plane out of your mother country.
 
 Ross had in fact taken some preparatory steps. He flew to Dominica, a tiny tax haven island in the Caribbean, and started an application for “economic citizenship.” He tried to cultivate successors in case flight became necessary. DPR had created a special forum called Staff Chat for his elite admins, including Batman73, Inigo, and a newcomer called Cirrus. DPR told his admins how the pressure was getting to him, how he wanted time away. Even amid the rising chaos swirling around Silk Road, DPR started taking days off, leaving daily operations to his lieutenants. Ross spent a weekend with his old flame Julia, a free-spirited and sensual young photographer he’d met at a drum circle in grad school.
 
-#### RELATED STORIES
-
-- #### [Silk Road Judge Denies Retrial Despite Agents’ Alleged Corruption](https://www.wired.com/2015/04/silk-road-judge-says-no-new-trial-despite-agents-alleged-corruption/)
-
-  BY ANDY GREENBERG
-
-- #### [Silk Road Boss’ First Murder-for-Hire Was His Mentor’s Idea](https://www.wired.com/2015/04/silk-road-boss-first-murder-attempt-mentors-idea/)
-
-  BY ANDY GREENBERG
-
-- #### [DEA Agent Charged With Acting as a Paid Mole for Silk Road](https://www.wired.com/2015/03/dea-agent-charged-acting-paid-mole-silk-road/)
-
-  BY ANDY GREENBERG
-
 She flew in from Austin, and it felt like old times for the two of them, but also different. Ross still lived frugally in the Glen Park house, wore a faded red sweater all the time, and cooked his paleo diet, but he seemed happier. They had lots of sex, went dancing, and roamed the city, ending up one day on the cliffs overlooking the Pacific. In the distance, the Golden Gate Bridge rose beneath the lifting fog, catching the sun. Julia looked gamely over her shoulder at Ross and decided it was a good time to get topless. She rolled down her yellow sundress and Ross took photos. She didn’t care when a couple of hikers stumbled onto their soft-core pictorial. Ross stopped shooting and they ran off together, giggling, back toward the city.
 
 Ross started spending more time with his housemates. One day he went to a nearby park with the girl who lived across the hall and hung out on the grass with her and her two long-haired Chihuahuas.
@@ -235,6 +217,8 @@ Ross started spending more time with his housemates. One day he went to a nearby
 Marring the greenery, Ross noticed, was a piece of blue plastic stuck in a tree. A dedicated anti-litterbug, Ross climbed up to retrieve it. Back at the house he discovered he’d gotten a bad case of poison oak and needed plenty of calamine lotion for the spreading rash. He moped for days, still shirtless, but now bright red, standing out like a squad car’s flasher against his white leather couch.
 
 <video class="render-layer hide-mob hide-ipad hide-sm hide-med" data-js="parallaxTarget" data-play-on-scroll="" style="box-sizing: border-box; display: block; vertical-align: baseline; backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; transform: translateZ(0px); max-width: 100%; transition: opacity 0.35s cubic-bezier(0.33, 0.66, 0.66, 1) 0s; width: 1730px;"></video>
+
+## ($curl_error )
 
 ![chapter_1](https://interactive.wired.com/www-wired-com__2015__05__silk-road-2/chapter_61.svg)
 
@@ -274,6 +258,8 @@ But Ross wasn’t going anywhere. His hubris had only grown, based on his belief
 
 On the evening of September 28, the FBI’s surveillance team watched DPR log off as Ross stopped working, closed his computer, left the house with his housemates, and headed for the beach.
 
+## Stay Positive
+
 ![chapter_1](https://interactive.wired.com/www-wired-com__2015__05__silk-road-2/chapter_71.svg)
 
 IT LOOKED LIKE a brochure for San Francisco living, a group of kids sitting around a campfire at Ocean Beach beneath a crescent moon, listening to their friend Ross play his djembe. This was the first weekend of Indian summer, that glorious time in San Francisco when everyone ventures outside and you can sit in the sand within sight of Golden Gate Park and listen to the dark waves crash on the shore. Alex opened champagne, and Ross drank Tecates and drummed along with a dude playing “Wonderwall” on a guitar in the distance.
@@ -287,6 +273,8 @@ Online, Ross’ stewardship of Silk Road was also off-balance. He recorded his t
 Amid the chaos, DPR did talk to Libertas, one of his most trusted admins, about taking over Silk Road in case of emergency, but he never gave him server access. As he tried to keep his fingers in the dike, DPR confided his worries to Cirrus, who by the end of September was briefing a massive FBI team in San Francisco alongside Tarbell and Kiernan on the looming arrest of Ross Ulbricht.
 
 If Ross knew the noose was tightening, he didn’t show it. In the days after the Ocean Beach party, he worked at his standing desk and called Julia in Austin, telling her he was going to visit in November. She sent him sultry photos, naked and dancing, as a preview. That Monday night, Ross wrote in his diary: “Had revelation about the need to eat well, get good sleep, and meditate so I can stay positive and productive.”
+
+## Mastermind
 
 ![chapter_1](https://interactive.wired.com/www-wired-com__2015__05__silk-road-2/chapter_81.svg)
 
@@ -381,6 +369,8 @@ At Ross’ house, agents found a USB drive containing some Silk Road programming
 Alex visited Ross in jail. He expected him to be shaken, but Ross was the same as always. He would soon be transferred to New York to face a seven-count indictment. It was hard for Alex to believe that the new guy in the extra room, his pal, was also the guy described in that warrant. The thought of Ross being guilty of even tripping someone, much less ordering a murder, seemed unlikely. He was always such a chill dude.
 
 
+
+## All Rise
 
 ![chapter_1](https://interactive.wired.com/www-wired-com__2015__05__silk-road-2/chapter_9B2.svg)
 

@@ -9,6 +9,8 @@ author:
 ---
 ![img](https://interactive.wired.com/www-wired-com__2015__04__silk-road-1/silk_road1_mobile.jpg)
 
+## Chronicpain
+
 ![chapter_1](https://interactive.wired.com/www-wired-com__2015__04__silk-road-1/silkchapter_1.svg)
 
 *“I imagine that someday I may have a story written about my life and it would be good to have a detailed account of it.”*—home/frosty/documents/journal/2012/q1/january/week1
@@ -34,6 +36,8 @@ The Feds got Green on his feet. They had a lot of questions, starting with why h
 “Don’t take me to jail,” Green pleaded. “He knows everything about me.”
 
 Later, under interrogation, Green told the skeptical agents that to charge him and make his name public was a potential death sentence. Dread Pirate Roberts was dangerous, he said: “This guy’s got millions. He could have me killed.”
+
+## Rossman
 
 ![chapter_2](https://www.wired.com/wp-content/uploads/2015/04/silkchapter_2.svg)
 
@@ -79,6 +83,8 @@ Just before the launch, facing a new year and a blank slate, Ross had resolved t
 
 ![img](https://interactive.wired.com/www-wired-com__2015__04__silk-road-1/silkroad01_2_f.jpg)
 
+## Force
+
 ![chapter_3](https://interactive.wired.com/www-wired-com__2015__04__silk-road-1/silkchapter_3.svg)
 
 SPECIAL AGENT CARL Mark Force IV was half-asleep when the postal inspector started talking about something weird in the parcel sorters. “Just wanna let everybody know about this,” the inspector said, delivering his brief to a conference room full of bored law enforcement personnel. “We are having problems with drugs coming through the mail.”
@@ -103,6 +109,8 @@ Before he knew it, Force was at a Silk Road summit, where he and 40 other agents
 
 The task force that formed to take on Silk Road—Operation Marco Polo—was based out of the Baltimore Homeland Security Investigations office. Another agent showed Force how to navigate Silk Road. He quickly saw that it had a vocal mastermind, the revered figure known as Dread Pirate Roberts. It was a clever touch, borrowing the name from *The Princess Bride*, in which the pirate was a mythical character, inhabited by the wearer of the mask. The idea of a malleable but enduring identity only added to Silk Road’s enigmatic appeal. Force was intrigued. Whoever wore this digital mask sat atop a burgeoning empire. Force told his boss that Silk Road was a “target of opportunity.” But he was unskilled at computers, and he didn’t know anything about bitcoin. So he decided to learn.
 
+## Onion Peeler
+
 ![chapter_4](https://www.wired.com/wp-content/uploads/2015/04/silkchapter_4.svg)
 
 HECTOR XAVIER MONSEGUR was an unusual visitor to the New York FBI office. Then again, Monsegur was not really a visitor. It was past 1 am one night in the spring of 2011, and he was being led to the back of the empty bullpen by Chris Tarbell, a young agent who had arrested Monsegur earlier that night in the Jacob Riis Houses on the Lower East Side. Monsegur was an enormous Puerto Rican, ears studded with diamonds, who grew up in the projects. He was also Sabu, a cofounder of LulzSec, the elite group of hackers responsible for electronically attacking dozens of corporate and government targets like News Corp. and the CIA. Sabu was the most high-profile member of Anonymous, the “hacktivist” political collective. Tarbell had managed to follow a blind lead from the FBI’s public hotline to Sabu and reel him into the FBI as an informant. It was a remarkable score for Tarbell, especially since he was still a rookie.
@@ -119,23 +127,11 @@ But catching the elusive Sabu made Tarbell’s name at the Bureau. Online, Sabu�
 
 After LulzSec, Tarbell looked for a new big case. He took an interest in Tor, the encryption software that allowed users to visit sites such as Silk Road. Tor’s protocol is a kind of digital invisibility cloak, hiding users and the sites they visit. Tor stands for “the Onion Router” and was launched by the Navy in 2002. It has since become a tool for all manner of clandestine communications, licit and illicit, from circumventing censorship in countries like China to powering contraband sites like Silk Road. Tor’s encryption is so layered, agents thought it was unbreakable. When cybercrime investigations hit a Tor IP, they would give up. The supposed impossibility only attracted Tarbell. *I’m gonna take on Tor*, he thought.
 
-#### RELATED STORIES
-
-- #### [Waiting for Dark: Inside Two Anarchists' Quest for Untraceable Money](https://www.wired.com/2014/07/inside-dark-wallet/)
-
-  BY ANDY GREENBERG
-
-- #### [DEA Agent Charged With Acting as a Paid Mole for Silk Road](https://www.wired.com/2015/03/dea-agent-charged-acting-paid-mole-silk-road/)
-
-  BY ANDY GREENBERG
-
-- #### [Silk Road Boss' First Murder-for-Hire Was His Mentor's Idea](https://www.wired.com/2015/04/silk-road-boss-first-murder-attempt-mentors-idea/)
-
-  BY ANDY GREENBERG
-
 Tarbell briefed his supervisor, who briefed his supervisor, and so on, until they wound up in the office of the SAC, or special agent in charge. Above the SAC is the assistant director in charge—yes, an endless source of amusement when complaining about red tape in the FBI is to talk about how the SAC is just below ADIC. It took a couple of sales pitches to soften up the SAC, but in February 2013, Tarbell opened the FBI’s first Tor case: Operation Onion Peeler.
 
 By now Silk Road was a juicy target. Many agencies were working on it, but with no success. Homeland Security Investigations had a case open. The IRS had looked into it. There was Force’s DEA case in Baltimore. And the New York DEA, which asked Tarbell for technical advice. They were using traditional drug investigation techniques, but Tarbell knew this wasn’t an operation where you could flip people up the chain, because there was no chain. You had to go straight to the top.
+
+## Bondi
 
 ![chapter_5](https://interactive.wired.com/www-wired-com__2015__04__silk-road-1/silkchapter_5.svg)
 
@@ -159,6 +155,8 @@ Part of the problem was that Ross was grappling with what hackers call operation
 
 He also struggled with learning how to lie. Just before New Year’s he went on a date with a woman named Jessica; he told her, like everyone else, that he was working on a bitcoin exchange. This alone constituted a security leak. *I’m so stupid*, he thought. But Ross got “deep” with Jessica and felt an urge to reveal himself. He lamented this feeling, the divide between intimacy and deceit. The Eagle Scout in him agonized over telling half-truths. Sitting across from Jessica, he wished he could be honest; he also wished he’d started with a better lie. But Ross did divulge the most important truth. He told her: “I have secrets.”
 
+## Sysadmin
+
 ![chapter_6](https://interactive.wired.com/www-wired-com__2015__04__silk-road-1/silkchapter_6.svg)
 
 WHEN SILK ROAD started, its leader was something of a cipher. Users and vendors only knew that there was a system administrator who’d established the site’s conceptual framework as both a drug marketplace and libertarian experiment. ¶ There was a basic ethics for that experiment. Some of Silk Road’s users were purists who advocated for full transactional autonomy—if heroin, why not howitzers and human hearts?—but the administrator pronounced “a strict code of conduct.” No child porn, stolen goods, or fake degrees. He summed it up like so: “Our basic rules are to treat others as you would wish to be treated and don’t do anything to hurt or scam someone else.”
@@ -172,6 +170,8 @@ Everyone loves *The Princess Bride*, and the reference was clear immediately. (F
 In a way, Silk Road was the logical extension of the libertarian view that animates much of the Internet (not to mention the rising political tide in Washington). It was Silicon Valley in extremis, a disruptive technology wrapped in political rhetoric. DPR was its philosopher-king, envisioning a post-state digital economy, with Silk Road as the first step toward a libertarian paradise. Not only was Silk Road a slap in the face to law enforcement, it was a direct challenge, as DPR wrote, to the very structure of power.
 
 All the more reason, of course, why the government wanted to shut it down. Ross had been flattered by the sudden media attention in June 2011, but when US senator Charles Schumer called a press conference to denounce Silk Road, he was alarmed. “The US govt, my main enemy,” he wrote, “was aware of me and … calling for my destruction.”
+
+## Nob
 
 ![chapter_7](https://www.wired.com/wp-content/uploads/2015/04/silkchapter_7.svg)
 
@@ -197,6 +197,8 @@ Putting himself in the mindset of a smuggler, Force saw Silk Road’s strength a
 
 ![img](https://interactive.wired.com/www-wired-com__2015__04__silk-road-1/silkroad01_4_f.jpg)
 
+The Pit
+
 ![chapter_8](https://interactive.wired.com/www-wired-com__2015__04__silk-road-1/silkchapter_8.svg)
 
 TARBELL WAS AT work, on the 23rd floor of the New York FBI office, early as usual. He was the kind of guy who wanted to be first in the office. Always had been, ever since college, when he started organizing his whole life on spreadsheets. Tarbell and Sabrina’s first date is still on an Excel worksheet somewhere, as is everything that’s happened since: calendar, bills, weight goals, daily run. Tarbell’s father-in-law, a longtime marine, thought Tarbell was the most regimented person he’d ever met. Tarbell set his alarm for 4:30 am, hit the gym by 5, and was showered and seated at his desk by 7 am sharp.
@@ -208,6 +210,8 @@ Tarbell liked his new colleagues, especially Ilwhan Yum. As a kid, Yum moved fro
 Across from Yum was Tom Kiernan. He’d been in the Pit the longest, 17 years, nearly since the DOS era, when he started at the Bureau as a civilian tech support guy, responding when agents’ printers stopped working. Kiernan just understood machines, backward and forward, and became the spine of the cybersquad. He’d seen every case and knew all, like the Pit’s very own oracle—just the guy Tarbell needed to help probe Silk Road’s defenses. Tor was a vexing problem. Tarbell thought it had benefits, but he also believed that all technologies could have their purposes corrupted. In a criminal context, as with Silk Road, Tor made classic law enforcement—knocking on doors, interviewing witnesses, making deals—nearly useless. Sure, you might start to piece together the network or get closer to DPR, but you’d still have only usernames. This was not a people case, Tarbell thought. This was a computer case. The path to DPR was through his server.
 
 Finding it was a fearsome technical challenge. Out of 1.5 billion computers in the world, Tarbell started to think about just one machine, day after day. It could be anywhere. He was looking for a nanowire in a haystack.
+
+## Founder's Dilemma
 
 ![chapter_9](https://interactive.wired.com/www-wired-com__2015__04__silk-road-1/silkchapter_9.svg)
 
@@ -227,6 +231,8 @@ Eventually Force stopped drinking and recommitted himself to church. He’d been
 
 Force recognized it was all a dangerous game. He knew how you could change. He could see it in DPR already. The thing about taking on a new identity is that it is fundamentally a lie. To the world at first. And then to yourself.
 
+## StoryCorps
+
 ![chapter_10](https://interactive.wired.com/www-wired-com__2015__04__silk-road-1/silkchapter_10.svg)
 
 “THE WORLD IS in flux,” Ross tells the camera. He sits across from his friend René Pinnell, recording for StoryCorps, a nonprofit that invites anyone to share their life experiences. Ross and René thought the world should know more about them, so they entered the StoryCorps booth, closed the door, and spent half an hour with each other and the camera.
@@ -235,25 +241,13 @@ In this recording, Ross is contemplative. He lives in San Francisco now. It has 
 
 In the video, they get nostalgic about childhood. There was the time the two of them tried to steal extra Tater Tots in the lunch room at West Ridge Middle School. The way Ross would eat his peanut butter chocolate wafers, precisely, by nibbling down the layers. How uncool it was when Ross had a sleepover and some bad kids stole a year’s worth of change he’d saved.
 
-#### RELATED STORIES
-
-- #### [Ross Ulbricht Didn't Create Dread Pirate Roberts. This Guy Did](https://www.wired.com/2015/02/ross-ulbricht-didnt-create-silk-roads-dread-pirate-roberts-guy/)
-
-  BY ANDY GREENBERG
-
-- #### [Here’s the Secret Silk Road Journal From the Laptop of Ross Ulbricht](https://www.wired.com/2015/01/heres-secret-silk-road-journal-laptop-ross-ulbricht/)
-
-  BY ANDY GREENBERG
-
-- #### [Read the Transcript of Silk Road’s Boss Ordering 5 Killings](https://www.wired.com/2015/02/read-transcript-silk-roads-boss-ordering-5-assassinations/)
-
-  BY ANDY GREENBERG
-
 Of course, they talk about love, as young men do. Ross reminisces about Ashley, his first, and her great tits. The first time they’d hung out, they did psychedelics, something called AMT. They got it from his neighbor Brandon, a “super-brilliant physics student who was into all of these research chemicals.” Ross was still a teenager then, lying on the floor, expanding his mind next to a beautiful girl for eight hours.
 
 Life is a fluctuating value, René says, like currency. René thinks his friend is a trader. René talks about how Austin is “the *meh* of startups,” whereas San Francisco is “the Mecca.” It’s late 2012, a time of fever dreams in the Bay Area, full of people wanting to “change the world” and make a lot of money in the process. René may not know it, but he is sitting next to someone doing just that.
 
 Ross and René wonder: What will happen in 200 years? “I want to have a substantial positive impact on the future of humanity by the time I die,” Ross says. René asks Ross if he thinks he’ll live forever. Ross looks up, breaks into a tiny smile. “Yes,” he says. “I think I might.”
+
+## Hugs
 
 ![chapter_11](https://interactive.wired.com/www-wired-com__2015__04__silk-road-1/silkchapter_11.svg)
 
@@ -270,6 +264,8 @@ The community responded in kind, likening DPR to Che Guevara, calling him a “j
 **DREAD:** the new look rolled out with minimal issues, woke up next to a beautiful woman, and I’m listening to one of my favorite bands/songs … and eating fresh strawberries.
 
 They talked shop: site fixes, the odd “holiday slump” in drug sales, the human resources problems of a clandestine telecommuting workplace. This was a big problem. To grow, DPR said, he had to build a strong workforce. A leader needs support so he can focus on the future.
+
+## Health and Wellness
 
 ![chapter_12](https://interactive.wired.com/www-wired-com__2015__04__silk-road-1/silkchapter_12.svg)
 
@@ -289,6 +285,8 @@ On Silk Road, however, trust only went so far. DPR demanded a scan of Green’s 
 
 ![img](https://interactive.wired.com/www-wired-com__2015__04__silk-road-1/silkroad01_3_f.jpg)
 
+## Fences
+
 ![chapter_13](https://interactive.wired.com/www-wired-com__2015__04__silk-road-1/silkchapter_13.svg)
 
 TARBELL HAD THREE computers on his desk, as did Kiernan and Yum. The cybersquad crew looked for any flicker of information that would crack open the dark web. But their investigation was moving slowly. They explored the site, read the forums, and crawled Reddit, looking for Silk Road community members talking to each other or to DPR about cryptographic weaknesses they’d discovered. But a month went by with no traction.
@@ -303,6 +301,8 @@ The case had become an enormous bureaucratic battle, as every agency tried to pl
 
 But in the bureaucratic muddle that is the United States government, there is no clear jurisdiction for cybercrime. It’s a growing field that’s fueling law enforcement funding, which attracts egos and politics. Silk Road represented the new frontier of crime, a digital-era Wild West. As with the original frontier, Washington wanted to fence it in—and whoever brought law to the lawless would be a hero. Subdue the digital frontier and there was a star waiting for you, which was why the Silk Road case had become the largest online manhunt in history.
 
+## Call Me
+
 ![chapter_14](https://interactive.wired.com/www-wired-com__2015__04__silk-road-1/silkchapter_14.svg)
 
 GREEN WOULDN’T STOP talking, even covered in cocaine. That was how Force found him when the SWAT team finished ransacking his house. Force was running that show; as Nob, he’d orchestrated the shipment of coke, and the whole raid was part of the growing Marco Polo task force investigating Silk Road. He’d watched Green take the bait from a command post across the street, and when he walked in a few minutes later, Green was cuffed on the floor, blabbing already. Green had more answers than Force had questions. He talked and talked and talked until Force couldn’t stand it. Said he was a former EMT; he was just trying to help people; they could have just knocked; he thought the package was something else, a totally legal drug called N-Bombe.
@@ -314,6 +314,8 @@ Nevertheless, Green was a tangible lead in the Silk Road case, a corporeal asset
 In jail, Green jawboned for hours to anyone who would listen, even declaring that he had been asked to cooperate with the DEA, at which point his tattooed cell mates told him to stop talking. When Green was released on bail, he went home and found his door still broken. His daughter had cleaned up some. In his bedroom the cops had apparently discovered that this particular Mormon grandpa owned a dildo, which they left for him standing straight up on the bed.
 
 Home alone with his two Chihuahuas, Green cried like a baby. “I’m a good little Mormon boy,” he said to himself. His thoughts grew dark. He loaded his dad’s .32. Then he looked down the barrel and threw it across the room. Green would be the first to admit that he was too chickenshit for suicide. He ran into the living room and threw himself onto the couch, where his Chihuahuas joined him, licking his face while he fell to his knees to pray. Eventually Green decided to get up, get his phone, and call DEA special agent Carl Force.
+
+## Driverslicense-1.pdf
 
 ![chapter_15](https://interactive.wired.com/www-wired-com__2015__04__silk-road-1/silkchapter_15.svg)
 
@@ -382,20 +384,6 @@ Back in Baltimore, sitting in his guest room with Pablo, Force thought about DPR
 As if seeking a makeshift moral compass among murderers, DPR asked Nob to let him know if he was abusing his authority. “That is what friends are for!” Nob replied. DPR confided to Inigo that one of his deepest fears was “being wildly successful” and “being corrupted by that power.” Nob also warned his online comrade about that power, how it could consume you. In his office, Force himself had put up a picture of Jesús Malverde, the Mexican narco-saint, as inspiration for Nob, and felt the pull of the folk hero bandit. He reminded DPR not to “lose yourself.”
 
 How could he not? Now astride a multimillion-dollar drug operation that he’d built in less than two years, Ross was no longer the tenderhearted soul who agonized over telling one lie to a young woman over a glass of wine. His diary had changed from a story about doubts and hopes to a catalog of hard-nosed empire-building.
-
-#### RELATED STORIES
-
-- #### [How the Feds Took Down the Silk Road Drug Wonderland](https://www.wired.com/2013/11/silk-road/)
-
-  BY KIM ZETTER
-
-- #### [Feds Arrest the Silk Road's ‘Dread Pirate Roberts’](https://www.wired.com/2013/10/silk-road-raided/)
-
-  BY KIM ZETTER
-
-- #### [The Most Dangerous People On the Internet Right Now](https://www.wired.com/2015/01/dangerous-people-internet-right-now/)
-
-  BY WIRED STAFF
 
 The triumph of Silk Road confirmed its creator’s belief in his own myth. “What we are doing,” DPR wrote to his followers, “will have rippling effects for generations to come.” In June 2013 the site reached nearly 1 million registered accounts. And the Feds were nowhere in sight.
 
