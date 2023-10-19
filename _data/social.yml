@@ -1,12 +1,12 @@
-- title: Twitter
-  url: https://twitter.com/chennleyi
-  icon: fab fa-twitter
-- title: Instagram
-  url: https://instagram.com/chennleyi
-  icon: fab fa-instagram
-- title: Youtube
-  url: https://www.youtube.com/@csemenuk
-  icon: fab fa-youtube
+# - title: Twitter
+#   url: https://twitter.com/chennleyi
+#   icon: fab fa-twitter
+# - title: Instagram
+#   url: https://instagram.com/chennleyi
+#   icon: fab fa-instagram
+# - title: Youtube
+#   url: https://www.youtube.com/@csemenuk
+#   icon: fab fa-youtube
 # - title: GitHub
 #   url: https://github.com/chennleyi/
 #   icon: fab fa-github
