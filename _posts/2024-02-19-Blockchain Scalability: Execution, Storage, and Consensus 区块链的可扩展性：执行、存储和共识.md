@@ -11,7 +11,6 @@ author:
 
 # Blockchain Scalability: Execution, Storage, and Consensus 区块链的可扩展性：执行、存储和共识
 
-August 9, 2023 2023 年 8 月 9 日
 
 **DEFINITION 定义**
 
