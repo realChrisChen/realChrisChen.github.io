@@ -1,7 +1,7 @@
 ---
 layout: post
 toc: true
-title: "Blockchain Scalability: Execution, Storage, and Consensus 区块链的可扩展性：执行、存储和共识"
+title: "区块链的可扩展性：执行、存储和共识"
 categories: 技术
 tags: [技术,区块链]
 author:
