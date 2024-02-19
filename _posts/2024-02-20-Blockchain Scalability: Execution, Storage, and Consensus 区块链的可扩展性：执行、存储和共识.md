@@ -3,10 +3,12 @@ layout: post
 toc: true
 title: "区块链的可扩展性：执行、存储和共识"
 categories: 技术
-tags: [技术,区块链]
+tags: [区块链]
 author:
   - chenleyi
 ---
+
+
 # Blockchain Scalability: Execution, Storage, and Consensus 区块链的可扩展性：执行、存储和共识
 
 August 9, 2023 2023 年 8 月 9 日
