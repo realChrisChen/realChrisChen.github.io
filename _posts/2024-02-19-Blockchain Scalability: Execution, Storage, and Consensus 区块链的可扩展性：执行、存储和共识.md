@@ -9,7 +9,7 @@ author:
 ---
 
 
-# Blockchain Scalability: Execution, Storage, and Consensus 区块链的可扩展性：执行、存储和共识
+## Blockchain Scalability: Execution, Storage, and Consensus 区块链的可扩展性：执行、存储和共识
 
 
 **DEFINITION 定义**
@@ -34,7 +34,7 @@ With the ultimate goal of unlocking blockchain technology for all users and use 
 ********Note:\*** *This blog is not an exhaustive list of every approach and aspect of blockchain scalability, as solutions are constantly being researched, tested, deployed, and updated due to the cutting-edge nature of blockchain research and development.*
 ***注：本博客并没有详尽列举区块链可扩展性的所有方法和方面，因为由于区块链研究和开发的前沿性，解决方案一直在不断研究、测试、部署和更新。
 
-## Blockchains vs. Traditional Computing 区块链与传统计算
+### Blockchains vs. Traditional Computing 区块链与传统计算
 
 Before discussing how to scale blockchains, it’s important to first understand why blockchain computing is fundamentally different from traditional computing. In general, blockchains are valuable for three reasons:
 在讨论如何扩展区块链之前，首先要了解为什么区块链计算与传统计算有本质区别。一般来说，区块链的价值在于以下三个原因：
@@ -83,12 +83,12 @@ As a result, the trust model of traditional computation environments is based on
 These dynamics get at the essence of blockchain scalability: How do blockchains achieve the speed and costs of traditional computing environments while still maintaining strong trust-minimization properties of security and decentralization?
 这些动态因素触及了区块链可扩展性的本质：区块链如何实现传统计算环境的速度和成本，同时仍然保持安全和去中心化的强大信任最小化特性？
 
-## Three Key Properties of Blockchain Scaling 区块链扩展的三个关键特性
+### Three Key Properties of Blockchain Scaling 区块链扩展的三个关键特性
 
 Blockchain scaling can be broken down into three general categories: execution, storage, and consensus. Below, we define each property and look at the core problem it seeks to solve. In practice, scaling one property is often dependent on or results in the scaling of one or two other properties.
 区块链扩展可分为三大类：执行、存储和共识。下面，我们将对每种属性进行定义，并探讨其所要解决的核心问题。在实践中，一个属性的扩展往往依赖于或导致其他一个或两个属性的扩展。
 
-### Blockchain Execution 区块链执行
+#### Blockchain Execution 区块链执行
 
 Blockchain execution is the computation required to execute transactions and perform state changes. Transaction execution involves checking the validity of transactions (e.g. verifying signatures and token balances) and executing the on-chain logic needed to calculate state changes. State changes are when full nodes update their copy of the ledger to reflect new token transfers, smart contract code updates, and data storage.
 区块链执行是指执行交易和进行状态更改所需的计算。交易执行包括检查交易的有效性（如验证签名和代币余额），以及执行计算状态变化所需的链上逻辑。状态变化是指全节点更新其账本副本，以反映新的代币转移、智能合约代码更新和数据存储。
@@ -99,7 +99,7 @@ The scalability of blockchain execution is commonly thought of in terms of trans
 When scaling the execution layer, the main problem to solve is how to achieve more computations per second without substantially increasing the hardware requirements on individual full nodes that validate the transactions in blocks.
 在扩展执行层时，要解决的主要问题是如何在不大幅增加以块为单位验证交易的各个完整节点的硬件要求的情况下，实现每秒更多的计算量。
 
-### Blockchain Storage 区块链存储
+#### Blockchain Storage 区块链存储
 
 Blockchain storage refers to the storage requirements of full nodes, which maintain and store a copy of the ledger. Blockchains have two general forms of storage:
 区块链存储是指完整节点的存储需求，这些节点维护并存储账本的副本。区块链一般有两种存储形式：
@@ -118,7 +118,7 @@ Blockchains with increasing storage requirements often experience state bloat—
 When scaling the storage layer, the main problem to solve is how to allow blockchains to process and validate more data without increasing storage requirements for full nodes; i.e., where can data be stored long term without major changes to the trust assumptions of blockchains?
 在扩展存储层时，要解决的主要问题是如何在不增加全节点存储需求的情况下让区块链处理和验证更多数据；也就是说，在不对区块链的信任假设产生重大改变的情况下，数据可以长期存储在哪里？
 
-### Blockchain Consensus 区块链共识
+#### Blockchain Consensus 区块链共识
 
 Blockchain consensus is the method by which nodes in a decentralized network reach an agreement on the current state of the blockchain. Consensus is mostly concerned with achieving an honest majority in the face of a certain threshold of malicious actors and reaching finality; i.e., transactions are accurately processed and highly unlikely to ever be reversed. Blockchain consensus is generally designed around minimizing communication overhead in order to increase the upper bound on decentralization for stronger Byzantine fault tolerance and lower the time to finality for faster settlement.
 区块链共识是去中心化网络中的节点就区块链当前状态达成一致的方法。共识的主要目的是在面对一定数量的恶意行为者时实现诚实的多数，并达到最终结果；即交易得到准确处理，并且极不可能被逆转。区块链共识通常是围绕最大限度地减少通信开销而设计的，目的是提高去中心化的上限，以实现更强的拜占庭容错能力，并缩短最终时间，加快结算速度。
@@ -126,12 +126,12 @@ Blockchain consensus is the method by which nodes in a decentralized network rea
 When scaling the consensus layer, the main problem to solve is how to reach finality faster, cheaper, and with more trust minimization—all in a predictable, stable, and accurate manner.
 在扩展共识层时，要解决的主要问题是如何以可预测、稳定和准确的方式，更快、更便宜、更大限度地减少信任，实现最终共识。
 
-## Scaling the Execution Layer 扩展执行层
+### Scaling the Execution Layer 扩展执行层
 
 Below are five different approaches currently being taken to scale the execution layer of blockchains along with the advantages and tradeoffs of each. In practice, some of these approaches are combined for even greater execution capacity.
 以下是目前用于扩展区块链执行层的五种不同方法，以及每种方法的优势和权衡。在实践中，其中一些方法被结合起来，以获得更大的执行能力。
 
-### Vertical Scaling of Validator Hardware Requirements 验证机硬件要求的纵向扩展
+#### Vertical Scaling of Validator Hardware Requirements 验证机硬件要求的纵向扩展
 
 Blockchain execution can be scaled by increasing the hardware requirements for block producers. Higher hardware requirements lead to each validator being able to perform more computations per second.
 区块链的执行可以通过提高对区块生产者的硬件要求来扩展。硬件要求越高，每个验证器每秒的计算量就越大。
@@ -142,7 +142,7 @@ Blockchain execution can be scaled by increasing the hardware requirements for b
 **Tradeoffs:** Vertical scaling of validators will limit network decentralization given the higher cost of running a validator or full node. Node costs will often increase over time, making it hard for most users to participate. Remaining decentralized will become dependent on[ Moore’s law](https://en.wikipedia.org/wiki/Moore's_law), which states that the number of transistors on a microchip doubles around every two years while the cost of computers halves. Higher full node costs can also increase the costs for end-users who want to directly verify activity happening on-chain, lowering trust minimization.
 权衡：由于运行验证器或完整节点的成本较高，验证器的纵向扩展将限制网络的去中心化。节点成本往往会随着时间的推移而增加，导致大多数用户难以参与。摩尔定律指出，微芯片上的晶体管数量大约每两年翻一番，而计算机成本却减半。更高的全节点成本也会增加想要直接验证链上活动的最终用户的成本，从而降低信任最小化。
 
-### Horizontal Scaling via Multi-Chain Ecosystems 通过多链生态系统实现横向扩展
+#### Horizontal Scaling via Multi-Chain Ecosystems 通过多链生态系统实现横向扩展
 
 An alternative to vertical scaling is horizontal scaling through the use of multiple independent blockchains or sidechains within a single ecosystem. Horizontal scaling spreads the computation of transactions in an ecosystem across many independent blockchains, with each chain having its own block producers and execution capacity.
 纵向扩展的另一种方法是横向扩展，即在一个生态系统中使用多个独立的区块链或侧链。横向扩展将生态系统中的交易计算分散到多个独立的区块链上，每个区块链都有自己的区块生产者和执行能力。
@@ -153,7 +153,7 @@ An alternative to vertical scaling is horizontal scaling through the use of mult
 **Tradeoffs:** Multi-chain ecosystems require each blockchain to bootstrap its own security through a native token that’s issued in an inflationary manner. Though this is standard in the early growth stages of blockchains, it may prove difficult to move towards a less dilutive, more sustainable economic model based on on-chain user fees since user fees will be spread across many independent blockchains. There are also composability challenges since dApps and tokens that want to interoperate don’t always exist on the same blockchain.
 权衡：多链生态系统要求每个区块链通过以通货膨胀方式发行的本地代币来启动自身的安全性。虽然这是区块链早期发展阶段的标准做法，但由于用户费用将分摊到许多独立的区块链上，因此可能很难转向稀释性更低、可持续性更强的基于链上用户费用的经济模式。此外，由于希望互操作的 dApp 和代币并不总是存在于同一个区块链上，因此还存在可组合性方面的挑战。
 
-### Horizontal Scaling via Execution Sharding 通过执行分片实现横向扩展
+#### Horizontal Scaling via Execution Sharding 通过执行分片实现横向扩展
 
 A similar yet unique approach to multi-chain scaling is having a single blockchain that supports parallel execution across many different shards. Each shard essentially acts as its own blockchain, meaning many blockchains can execute in parallel. There is also a single main chain that has the sole purpose of keeping all shards synced together.
 多链扩展的一个类似但又独特的方法是让一个区块链支持在许多不同的分片上并行执行。每个分块本质上都是自己的区块链，这意味着许多区块链可以并行执行。此外，还有一条主链，其唯一目的就是让所有分块保持同步。
@@ -174,7 +174,7 @@ Multi-chain ecosystems generally do not share security across blockchains while 
 
 ‍
 
-### Horizontal Scaling via Modularity 通过模块化实现横向扩展
+#### Horizontal Scaling via Modularity 通过模块化实现横向扩展
 
 Another approach to horizontal scaling is[ modular blockchains](https://polynya.medium.com/rollups-data-availability-layers-modular-blockchains-introductory-meta-post-5a1e7a60119d), where the architecture of blockchains is separated into multiple different layers; i.e., isolating the execution, data availability (DA), and consensus components. The most popular way to perform execution in modular blockchain implementations is via[ rollups](https://vitalik.ca/general/2021/01/05/rollup.html), which move the computation and state off-chain into off-chain networks while storing transaction data on-chain. State changes computed off-chain are then proven on-chain proactively as valid using zero-knowledge proofs (zk-rollups) or invalid retroactively using fraud proofs (optimistic rollups).
 横向扩展的另一种方法是模块化区块链，即把区块链的架构分成多个不同的层，即隔离执行、数据可用性（DA）和共识组件。在模块化区块链实现中，最常用的执行方式是通过卷积，将计算和状态从链上转移到链下网络，同时将交易数据存储在链上。链外计算的状态变化在链上使用零知识证明（zk-rollups）主动证明有效，或使用欺诈证明（乐观rollups）追溯无效。
@@ -193,7 +193,7 @@ Rollups can also support escape hatches for trust minimization; i.e., if a rollu
 A proposed way to scale Ethereum is modular blockchains, separating the execution, data availability, and consensus layers ([source](https://coinyuppie.com/read-the-ethereum-era-of-modularity-in-one-article/)).
 扩展以太坊的一种建议方式是模块化区块链，将执行层、数据可用性层和共识层分开（资料来源）。
 
-### Payment and State Channels 付款和国家渠道
+#### Payment and State Channels 付款和国家渠道
 
 Payment and state channels can be used for blockchain scaling by allowing users to lock cryptocurrency into a multisig smart contract with other parties and then exchange signed messages off-chain representing a transfer of asset ownership and/or change of state without making any on-chain transactions. Users only need to make on-chain transactions when opening a channel and closing a channel.
 支付和状态通道可用于区块链扩展，允许用户将加密货币锁定到与其他方签订的多位智能合约中，然后在链下交换代表资产所有权转移和/或状态变化的签名消息，而无需进行任何链上交易。用户只需在打开通道和关闭通道时进行链上交易即可。
@@ -210,12 +210,12 @@ The multisig contract is used to ensure the correct settlement of the channel by
 Efficiently routing payments across a network of channels is a [difficult problem](https://en.wikipedia.org/wiki/Travelling_salesman_problem) that can result in failed transfers or the creation of a more centralized hub-and-spoke model to ensure participants have access to sufficient liquidity and short routes. Generally, state/payment channels work best between a known set of static participants but don’t work well with a dynamic or unbounded set of participants. There is also the ownership problem, where it’s difficult or often impossible for channels to represent objects that do not have a clear logical owner (e.g. DEX liquidity pool).
 在渠道网络中有效地进行支付是一个棘手的问题，可能导致转账失败，也可能导致建立一个更加集中的中心辐射模式，以确保参与者获得足够的流动性和短路线。一般来说，状态/支付渠道在已知的静态参与者之间效果最佳，但在动态或无限制的参与者之间效果不佳。此外还有所有权问题，即通道很难或通常不可能代表没有明确逻辑所有者的对象（如 DEX 流动性池）。
 
-## **Scaling Data Storage 扩展数据存储**
+### **Scaling Data Storage 扩展数据存储**
 
 Below are six different approaches currently being taken to scale the storage layer of blockchains. In practice, some of these approaches are combined for even greater storage improvements.
 以下是目前用于扩展区块链存储层的六种不同方法。在实践中，其中一些方法被结合起来，以实现更大的存储改进。
 
-### Vertical Scaling of Blockchain Nodes 区块链节点的垂直扩展
+#### Vertical Scaling of Blockchain Nodes 区块链节点的垂直扩展
 
 Similar to vertical scaling of blockchain execution, vertical scaling of blockchain storage involves raising the hardware requirements of running a full node.
 与区块链执行的纵向扩展类似，区块链存储的纵向扩展涉及提高运行一个完整节点的硬件要求。
@@ -226,7 +226,7 @@ Similar to vertical scaling of blockchain execution, vertical scaling of blockch
 **Tradeoffs:** Since there is more and more data to store over time, the decentralization of the blockchain becomes increasingly at risk as the costs of running a full node increase. With less decentralization, fewer trust-minimized assurances can be provided to users that data will be available and correct. State bloat can also lead to slower execution of blocks over time, increasing the strain on the network as a whole.
 权衡利弊：随着时间的推移，需要存储的数据越来越多，随着运行一个完整节点的成本增加，区块链的去中心化风险也越来越大。去中心化程度越低，为用户提供的数据可用性和正确性的信任保证就越少。随着时间的推移，状态臃肿还会导致区块执行速度减慢，增加整个网络的压力。
 
-### Data Sharding on Layer-1 Blockchains 第 1 层区块链上的数据分片
+#### Data Sharding on Layer-1 Blockchains 第 1 层区块链上的数据分片
 
 Another approach to scaling the data storage of blockchains is[ data sharding](https://vitalik.ca/general/2021/04/07/sharding.html). Data sharding splits the storage of the ledger and/or the data used to recreate the ledger across many shards, reducing an individual node’s storage requirements at any given time to that of a single shard or small set of shards.
 扩展区块链数据存储的另一种方法是数据分片。数据分片将分类账和/或用于重建分类账的数据的存储分割到多个分片中，从而将单个节点在任何给定时间的存储需求减少到单个分片或一小组分片的存储需求。
@@ -237,7 +237,7 @@ Another approach to scaling the data storage of blockchains is[ data sharding](h
 **Tradeoffs:** There may be limits on the number of shards one blockchain can support due to the increased load on the main chain. There is also a need for [data availability sampling](https://hackmd.io/@vbuterin/sharding_proposal) (DAS), which proves that historical data needed to reconstruct part of the ledger was available at one point (i.e. when the block was produced) without nodes actually having to download all the data themselves. Additionally, data sharding requires communication overhead to pass storage between nodes when rotating nodes to different shards. It also requires a large number of nodes to maintain high security—there must be a certain level of decentralization per shard, so the total pool of nodes needs to be large since it’s split out amongst all shards.
 权衡：由于主链的负载增加，一个区块链可支持的分片数量可能会受到限制。此外，还需要进行数据可用性采样（DAS），以证明重建部分账本所需的历史数据在某一时刻（即区块产生时）是可用的，而无需节点自己下载所有数据。此外，数据分片需要通信开销，以便在将节点旋转到不同分片时在节点之间传递存储。它还需要大量节点来维持高安全性--每个分片必须有一定程度的去中心化，因此节点的总池需要很大，因为它被分割到所有分片中。
 
-### Compressed On-Chain Data Storage With Modular Blockchains 利用模块化区块链进行压缩链上数据存储
+#### Compressed On-Chain Data Storage With Modular Blockchains 利用模块化区块链进行压缩链上数据存储
 
 Modular blockchains perform computation off-chain and then store transaction data or state differences either on-chain or off-chain. The data allows other nodes or users to rebuild the current or historical state of the ledger. When rollups employ on-chain data storage, transaction data is often[ compressed](https://research.arbitrum.io/t/compression-in-nitro/20) off-chain prior to being stored on-chain.
 模块化区块链在链外执行计算，然后在链上或链外存储交易数据或状态差异。这些数据允许其他节点或用户重建账本的当前或历史状态。当卷积采用链上数据存储时，交易数据通常会在链上存储之前在链下进行压缩。
@@ -248,7 +248,7 @@ Modular blockchains perform computation off-chain and then store transaction dat
 **Tradeoffs:** On-chain storage availability is more expensive than off-chain storage, which may inhibit the ability of modular blockchains to match the scalability of less decentralized storage options. Compressing data may also drop parts of the data that are not strictly required for validation, potentially inhibiting a more granular analysis of chain activity based on that data.
 权衡：链上存储的可用性比链下存储更昂贵，这可能会抑制模块化区块链的可扩展性，使其无法与去中心化程度较低的存储方案相媲美。压缩数据还可能会丢弃部分不需要严格验证的数据，从而可能阻碍根据这些数据对区块链活动进行更精细的分析。
 
-### Off-Chain Data Storage in Modular Blockchain Designs 模块化区块链设计中的链外数据存储
+#### Off-Chain Data Storage in Modular Blockchain Designs 模块化区块链设计中的链外数据存储
 
 Modular blockchains can store transaction data off-chain to further reduce on-chain storage requirements. This includes “validiums,” which publish zero-knowledge proofs on-chain while storing data off-chain. There are four main approaches to off-chain data storage by modular blockchains:
 模块化区块链可以在链外存储交易数据，以进一步减少链上存储需求。这包括 "validium"，它在链上发布零知识证明，同时在链下存储数据。模块化区块链有四种主要的链外数据存储方法：
@@ -262,7 +262,7 @@ Modular blockchains can store transaction data off-chain to further reduce on-ch
 - **Volitions** enable users to choose whether they want to store their transaction data on-chain or off-chain. Volitions are novel because they enable data availability solution options at the individual transaction level while allowing all transactions to share the same state root and consensus cost. However, this method is more complex than the others listed above and has yet to be achieved in production.
   Volitions 使用户能够选择将其交易数据存储在链上还是链下。Volitions 之所以新颖，是因为它可以在单个交易层面实现数据可用性解决方案选项，同时允许所有交易共享相同的状态根和共识成本。不过，这种方法比上面列出的其他方法更复杂，而且尚未投入生产。
 
-### Data Pruning 数据剪枝
+#### Data Pruning 数据剪枝
 
 [Data pruning](https://eips.ethereum.org/EIPS/eip-4444) is a technique that enables blockchain full nodes to discard historical data beyond a specific block height. Data pruning is often paired with Proof-of-Stake checkpoints, where the transactions in blocks beyond the checkpoint are considered final; i.e. they can’t be reversed without major social consensus or a hard fork.
 数据剪枝是一种技术，可使区块链全节点丢弃超过特定区块高度的历史数据。数据剪枝通常与 "认股证明"（Proof-of-Stake）检查点（checkpoints）配对使用，在检查点之外的区块中的交易被视为最终交易；也就是说，在没有达成重大社会共识或硬分叉的情况下，这些交易不能被逆转。
@@ -273,7 +273,7 @@ Modular blockchains can store transaction data off-chain to further reduce on-ch
 **Tradeoffs:** Data pruning relies on third parties (e.g. exchanges, block explorers, etc) to store historical data permanently in order to rebuild state back to the genesis block. However, it’s a 1-of-n trust model, so only one third party needs to store the data honestly in order for a full node to be able to recreate all historical state. With Proof-of-Stake offering checkpoints and [weak subjectivity](https://academy.binance.com/en/glossary/weak-subjectivity), this assumption becomes less relevant. However, such data is still important for on-chain analytics and block explorers.
 权衡：数据修剪依赖于第三方（如交易所、区块探索者等）永久存储历史数据，以便将状态重建回创世区块。然而，这是一个 1-of-n 的信任模型，因此只需要一个第三方诚实地存储数据，全节点就能重建所有历史状态。有了 "股权证明 "提供的检查点和弱主观性，这一假设就变得不那么重要了。不过，这些数据对于链上分析和区块探索者来说仍然很重要。
 
-### Statelessness, State Expiry, and State Rent 无国籍状态、国家失效和国家租金
+#### Statelessness, State Expiry, and State Rent 无国籍状态、国家失效和国家租金
 
 There also exist methods focused around limiting the amount of state that full nodes have to store, particularly through state expiry,[ statelessness](https://notes.ethereum.org/@vbuterin/verkle_and_state_expiry_proposal), or state rent implementations.
 此外，还有一些方法专注于限制全节点必须存储的状态量，特别是通过状态过期、无状态或状态租用来实现。
@@ -291,32 +291,32 @@ There also exist methods focused around limiting the amount of state that full n
 **Tradeoffs:** Limiting state storage is a fairly novel approach and eliminates the idea of users paying a single time to have every single full node in the network store their state in perpetuity forever—a stark contrast to how blockchains handle state today. Furthermore, upgrading a blockchain that uses a traditional state storage model to a more limited state storage model is difficult and may break applications that made specific assumptions during development about state always being accessible. New state storage models may also make particular applications more expensive than they were previously.
 权衡利弊：限制状态存储是一种相当新颖的方法，它消除了用户一次性付费让网络中每个完整节点永久存储其状态的想法--这与当今区块链处理状态的方式形成了鲜明对比。此外，将使用传统状态存储模型的区块链升级为更有限的状态存储模型非常困难，可能会破坏在开发过程中对状态始终可访问做出特定假设的应用程序。新的状态存储模型还可能使特定应用程序的成本比以前更高。
 
-## **Scaling Consensus 扩大共识范围**
+### **Scaling Consensus 扩大共识范围**
 
 Below are four general goals when trying to scale blockchain consensus mechanisms as they pertain to more frequent block times, faster finality, and enhanced robustness against downtime or malicious attacks. Note that scaling consensus is not just about speed but also accuracy, stability, and security.
 以下是在尝试扩展区块链共识机制时的四个总体目标，它们涉及更频繁的区块时间、更快的终结性以及增强对停机或恶意攻击的鲁棒性。请注意，扩展共识不仅要考虑速度，还要考虑准确性、稳定性和安全性。
 
-### Increase Execution and Storage Capacity 提高执行和存储能力
+#### Increase Execution and Storage Capacity 提高执行和存储能力
 
 A foundational component in scaling a blockchain’s consensus mechanism is increasing its computational and storage capacity without substantially raising the hardware requirements for full nodes. This will allow more nodes to participate in consensus or at least prevent existing nodes from dropping off the network as the ledger grows—helping maintain strong consensus guarantees around uptime, censorship resistance, accuracy, and security. If execution and storage capacity is raised to a significant level without meaningful impact on full nodes, blockchains may even be able to support faster block times and/or larger block sizes in a stable manner without sacrificing their core property of decentralization.
 扩展区块链共识机制的一个基本要素是提高其计算和存储容量，同时不大幅提高对完整节点的硬件要求。这将允许更多节点参与共识，或至少防止现有节点随着分类账的增长而退出网络--有助于在正常运行时间、抗审查、准确性和安全性方面保持强有力的共识保证。如果在不对全节点产生重大影响的情况下将执行和存储容量提高到一个显著水平，区块链甚至可以在不牺牲其去中心化核心特性的情况下，稳定地支持更快的区块时间和/或更大的区块大小。
 
-### Reduce Networking Bandwidth 减少网络带宽
+#### Reduce Networking Bandwidth 减少网络带宽
 
 Another way to approach scaling a blockchain’s consensus mechanism is to reduce networking bandwidth; i.e. the communication overhead (sending and receiving messages) required between full nodes in order to reach consensus. Instead of requiring that nodes be able to communicate between all other nodes (i.e. all-to-all voting), blockchains consensus can be designed so that nodes only need to communicate with a small portion of other nodes at any moment in time (e.g. sub-sampling). Some consensus designs do not use multi-round voting or communication schemes so the only communication required is the propagation of blocks, but this generally comes at the expense of probabilistic finality.
 扩大区块链共识机制规模的另一种方法是减少网络带宽，即减少全节点之间为达成共识所需的通信开销（发送和接收消息）。区块链共识的设计可以不要求节点能够与所有其他节点进行通信（即全对全投票），而是使节点在任何时刻都只需要与一小部分其他节点进行通信（如子采样）。有些共识设计不使用多轮投票或通信方案，因此唯一需要的通信就是区块的传播，但这通常是以牺牲概率最终性为代价的。
 
-### Increase Network Latency 增加网络延迟
+#### Increase Network Latency 增加网络延迟
 
 There are also methods focused on trying to reduce network latency during consensus, particularly as it relates to lowering the time to finality. Some blockchain consensus mechanisms have instant finality either through multi-round sub-sampling or all-to-all voting rounds. Other blockchains implement checkpoints secured by a supermajority consensus of validators after a period of time, meaning blocks are considered final past the checkpoint since there can no longer be in-protocol re-orgs beyond it. Often a tradeoff between network latency and network bandwidth has to be made, although some hybrid approaches have been optimized for both.
 还有一些方法专注于减少共识过程中的网络延迟，特别是与缩短最终时间有关的延迟。一些区块链共识机制通过多轮子抽样或全对全投票轮实现即时终结。其他区块链则在一段时间后通过验证者的超级多数共识实现检查点，这意味着区块在检查点之后被视为最终区块，因为在检查点之后就不能再进行协议内重新修订。通常情况下，必须在网络延迟和网络带宽之间做出权衡，不过一些混合方法已对两者进行了优化。
 
-### Increase the Security Budget 增加安保预算
+#### Increase the Security Budget 增加安保预算
 
 The trust minimization of consensus can also be scaled by increasing the security budget that funds nodes participating in consensus. This is generally done by achieving a monetary premium, having inflationary token rewards, and/or growing transaction fee revenue because demand for block space exceeds supply. Higher security budgets open up more potential revenue for participants, which may then increase the network’s decentralization since more nodes are incentivized to join. Blockchains can also require nodes to put up more stake or computational power to participate in consensus, although this risks increasing the centralization of the network if requirements become too high.
 还可以通过增加为参与共识的节点提供资金的安全预算来实现共识信任最小化。这通常是通过货币溢价、通胀代币奖励和/或因区块空间供不应求而增加交易费收入来实现的。更高的安全预算会为参与者带来更多潜在收入，从而提高网络的去中心化程度，因为更多的节点有动力加入。区块链还可以要求节点投入更多的股权或计算能力来参与共识，但如果要求过高，则有可能加剧网络的中心化。
 
-## A Scalable and Secure Cross-Chain Future 可扩展、安全的跨链未来
+### A Scalable and Secure Cross-Chain Future 可扩展、安全的跨链未来
 
 Blockchain scalability is at an exciting point in its development as demonstrated by the plethora of solutions being built, tested, and launched into production. With a strong focus on scaling while preserving trust minimization, blockchains are poised to cement themselves as the go-to backend for a wide variety of industries and use cases.
 区块链的可扩展性正处于一个令人兴奋的发展阶段，正在构建、测试和投入生产的大量解决方案就证明了这一点。区块链非常注重在保持信任最小化的同时进行扩展，因此有望成为各种行业和用例的首选后端。
@@ -332,7 +332,7 @@ CCIP 的拟议架构。
 To learn more about Chainlink, visit the [Chainlink website](https://chain.link/) and follow the official [Chainlink Twitter](https://twitter.com/chainlink) to keep up with the latest Chainlink news and announcements.
 欲了解更多有关 Chainlink 的信息，请访问 Chainlink 网站并关注 Chainlink 官方 Twitter，了解 Chainlink 的最新消息和公告。
 
-## Related articles 相关文章 
+### Related articles 相关文章 
 
 [Verifiable Random Function (VRF)
 可验证随机函数 (VRF)](https://chain.link/education-hub/verifiable-random-function-vrf)
