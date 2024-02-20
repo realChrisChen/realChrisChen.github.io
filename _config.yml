@@ -3,6 +3,7 @@ description: The head is always fooled by the heart.
 author: chenleyi
 avatar: /logo.jpg
 email: chenleyi2001@gmail.com
+skin: daylight
 
 plugins:
   - jekyll-seo-tag
