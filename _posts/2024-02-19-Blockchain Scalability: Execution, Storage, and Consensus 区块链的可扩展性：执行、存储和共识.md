@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: "区块链的可扩展性：执行、存储和共识"
 categories: 技术
-tags: [区块链]
+tags: [区块链学习]
 author:
   - chenleyi
 ---
